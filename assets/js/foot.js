@@ -10,14 +10,14 @@ document.getElementById("footer").innerHTML =
 										'<h2>Get In Touch</h2>'+
 									'</header>'+
 									'<ul class="social">'+
-										'<li><a class="icon fa-facebook" href="https://www.facebook.com/ritsammy/"><span class="label">Facebook</span></a></li>'+
-										'<li><a class="icon fa-twitter" href="https://twitter.com/sammy_rit?lang=en"><span class="label">Twitter</span></a></li>'+
-										'<li><a class="icon fa-instagram" href="https://www.instagram.com/sammy_rit/"><span class="label">Dribbble</span></a></li>'+
+										'<li><a class="icon fa-facebook" href="https://www.facebook.com/ritsammy/" target="_blank"><span class="label">Facebook</span></a></li>'+
+										'<li><a class="icon fa-twitter" href="https://twitter.com/sammy_rit?lang=en" target="_blank"><span class="label">Twitter</span></a></li>'+
+										'<li><a class="icon fa-instagram" href="https://www.instagram.com/sammy_rit/" target="_blank"><span class="label">Dribbble</span></a></li>'+
 									'</ul>'+
 									'<ul class="contact">'+
 										'<li>'+
 											'<h3>Mail</h3>'+
-											'<p><a href="#">publicrelations@ritsammy.com</a></p>'+
+											'<p><a>publicrelations@ritsammy.com</a></p>'+
 										'</li>'+
 									'</ul>'+
 								'</section>'+
