@@ -1684,32 +1684,19 @@ ol.default li {
 /* Banner */
 
 #banner {
-    width: 100%;
-    background: rgb(255, 255, 255) url("../../images/indexBanner.png");
+    max-width: 60%;
+    background: rgb(255, 255, 255) url("../../images/siteBanner.png");
     background-position: center center;
-    /*background-size: 20%;*/
+    background-size: 100%;
     background-repeat: no-repeat;
     min-height: 350px;
     text-align: center;
 }
 
-#banner header {
-    background-color: #252122;
-    background-color: rgba(34, 30, 31, 0.98);
+#homeBanner img {
+  margin-top: 50px;
+  max-width: 70%;
 }
-
-#banner header h2 {
-    color: #fff;
-    font-weight: 700;
-}
-
-#banner header p {
-    color: #410eaf;
-    padding: 0;
-    font-style: normal;
-    margin: 0;
-}
-
 
 /* Wrappers */
 
