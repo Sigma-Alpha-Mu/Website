@@ -1,0 +1,23 @@
+<head>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+</head>
+
+<noscript>
+    Sorry. Your browser doesn't support javascript. <a href="http://ritsammy.com">Click here to return home.</a>
+</noscript>
+<script>
+var url = document.URL
+
+function checkForRedirect() {
+    var link = url.split("?").pop();
+    console.log(link);
+	if(link == "imageRequestForm") {
+		window.location.replace("https://docs.google.com/document/d/1Jk42hSzuwMvtgvTX9Loe0kH789HzVG0fyu3AHV5dFrc/edit?usp=sharing");
+	} else {
+	    console.log("Link not found");
+	    window.location.replace("http://ritsammy.com");
+	}
+}
+
+checkForRedirect();
+</script>
